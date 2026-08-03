@@ -20,8 +20,6 @@
 <p align="center">
   <img width="1366" height="768" alt="xdmPNG" src="https://github.com/user-attachments/assets/3cfbdd2f-a47e-4161-b7f3-62267be9100e" />
 
-       alt="XDM 8.0.29-rt1 running on a Surface RT (screenshot to be added)"
-       width="720">
 </p>
 <p align="center"><i>XDM running on a Surface RT — Windows RT 8.1, Tegra 3, ARM32.</i></p>
 
