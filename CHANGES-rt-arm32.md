@@ -8,10 +8,13 @@ Branched from tag **`8.0.29`**, commit `1ca5a25aae007826c859c81bea494e7c102e1242
 GPL-2.0 §2(a) requires modified files to "carry prominent notices stating that you changed the
 files and the date of any change."
 
-Every file this fork modifies is a **binary `.ico`**. A binary cannot carry a text notice, and
+Most files this fork modifies are **binary `.ico`**. A binary cannot carry a text notice, and
 **no source file is modified at all** — so there is nothing for a per-file notice to attach to.
 This file is the notice instead, covering every change with its date, alongside the commit
 history.
+
+The one exception is `README.md`, which is text and therefore carries its own dated notice at the
+foot of the file, as §2(a) intends. It is also recorded here.
 
 If a future change touches source, that file gets its own in-file notice in the usual way.
 
@@ -70,6 +73,30 @@ the nearest frame at draw time.
 Every entry remains an uncompressed 32bpp BMP, for the `System.Drawing.Icon` reason above.
 
 Built with `tools/build_icon.py` in the packaging repository.
+
+---
+
+## 2026-08-03 — README.md rewritten for this fork
+
+`README.md` **modified**; `screenshots/README.md` **added**.
+
+Upstream's README described the **Java/Maven build of XDM 7** — `mvn clean install`, a jar in
+`target/` — which has not been how XDM is built since version 8 became C#. It also carried
+upstream's download links, badges and hot-linked screenshots, none of which describe what this
+repository produces.
+
+Leaving it in place meant the front page of this fork advertised a different program, built a
+different way, from a different era. Replaced with a README describing this fork: what it is,
+whose work it is, how to install it on Windows RT, the WPF prerequisite, the known limitations,
+and where to report problems.
+
+The file carries its own dated change notice at the foot, per GPL-2.0 §2(a). Upstream's README
+is linked from it rather than deleted from history.
+
+`screenshots/` is a new folder for one image referenced by the README. It is deliberately
+**not** `docs/`, which is upstream's project website and is not touched by this fork.
+
+Nothing else changed: no source line, no build file, no `LICENSE`.
 
 ---
 
