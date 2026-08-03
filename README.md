@@ -18,7 +18,8 @@
 ---
 
 <p align="center">
-  <img src="[screenshots/xdm-on-windows-rt.png](https://github.com/user-attachments/assets/5c217021-b43b-4d98-9088-8dc1a146077f)"
+  <img width="1366" height="768" alt="xdmPNG" src="https://github.com/user-attachments/assets/3cfbdd2f-a47e-4161-b7f3-62267be9100e" />
+
        alt="XDM 8.0.29-rt1 running on a Surface RT (screenshot to be added)"
        width="720">
 </p>
