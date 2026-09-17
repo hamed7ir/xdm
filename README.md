@@ -65,6 +65,14 @@ Check where you stand first — this changes nothing:
 Setup.exe --check
 ```
 
+## Supported platforms
+
+- **Windows RT 8.0** and **Windows RT 8.1** on ARM32 — Surface RT, Surface 2 and other Tegra-era RT
+  hardware.
+- **Windows 10 ARM32** (build 15035).
+
+All of them need the two prerequisites below, because none of these images ships WPF.
+
 ## Prerequisites
 
 XDM needs exactly two things:
